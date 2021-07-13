@@ -164,7 +164,7 @@ F 3 "" H 7650 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L custom:SY6912 U1
+L BaseBoard-rescue:SY6912-custom U1
 U 1 1 60EA3AD5
 P 8750 5450
 F 0 "U1" H 8750 6115 50  0000 C CNN
@@ -1343,4 +1343,63 @@ F 3 "~" H 7850 1050 50  0001 C CNN
 $EndComp
 Text Label 7650 2150 2    50   ~ 0
 VBAT
+Text Notes 3000 5550 0    62   ~ 0
+VCC\nGND\nSCL\nSDA\nUNO0\nUNO1\nUNO2\nUNO3
+$Comp
+L Connector_Generic:Conn_01x08 J23
+U 1 1 60EDCB6E
+P 2850 5100
+F 0 "J23" H 2930 5092 50  0000 L CNN
+F 1 "IMU" H 2930 5001 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 2850 5100 50  0001 C CNN
+F 3 "~" H 2850 5100 50  0001 C CNN
+	1    2850 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0161
+U 1 1 60EE0768
+P 2650 4900
+F 0 "#PWR0161" H 2650 4650 50  0001 C CNN
+F 1 "GND" V 2655 4772 50  0000 R CNN
+F 2 "" H 2650 4900 50  0001 C CNN
+F 3 "" H 2650 4900 50  0001 C CNN
+	1    2650 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3VA #PWR0162
+U 1 1 60EE0BA2
+P 2650 4800
+F 0 "#PWR0162" H 2650 4650 50  0001 C CNN
+F 1 "+3.3VA" H 2665 4973 50  0000 C CNN
+F 2 "" H 2650 4800 50  0001 C CNN
+F 3 "" H 2650 4800 50  0001 C CNN
+	1    2650 4800
+	0    -1   -1   0   
+$EndComp
+Text Label 2950 2000 0    50   ~ 0
+SCL
+Text Label 2950 1900 0    50   ~ 0
+SDA
+Text Label 2650 5100 2    50   ~ 0
+SDA
+Text Label 2650 5000 2    50   ~ 0
+SCL
+Text Label 1350 2700 2    50   ~ 0
+GPIO22
+Text Label 1350 2800 2    50   ~ 0
+GPIO23
+Text Label 1350 2900 2    50   ~ 0
+GPIO24
+Text Label 1350 3000 2    50   ~ 0
+GPIO25
+Text Label 2650 5200 2    50   ~ 0
+GPIO22
+Text Label 2650 5300 2    50   ~ 0
+GPIO23
+Text Label 2650 5400 2    50   ~ 0
+GPIO24
+Text Label 2650 5500 2    50   ~ 0
+GPIO25
 $EndSCHEMATC
