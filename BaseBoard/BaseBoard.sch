@@ -25,17 +25,6 @@ F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/r
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J14
-U 1 1 60E8B7DD
-P 7850 2500
-F 0 "J14" H 7878 2476 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 7878 2385 50  0000 L CNN
-F 2 "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical" H 7850 2500 50  0001 C CNN
-F 3 "~" H 7850 2500 50  0001 C CNN
-	1    7850 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 60E8C284
 P 7650 2500
@@ -52,7 +41,7 @@ U 1 1 60E8CC84
 P 7850 1600
 F 0 "J12" H 7878 1576 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 7878 1485 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7850 1600 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 7850 1600 50  0001 C CNN
 F 3 "~" H 7850 1600 50  0001 C CNN
 	1    7850 1600
 	1    0    0    -1  
@@ -63,7 +52,7 @@ U 1 1 60E8D280
 P 7850 2050
 F 0 "J13" H 7878 2026 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 7878 1935 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7850 2050 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 7850 2050 50  0001 C CNN
 F 3 "~" H 7850 2050 50  0001 C CNN
 	1    7850 2050
 	1    0    0    -1  
@@ -112,7 +101,7 @@ U 1 1 60E95D86
 P 7850 3550
 F 0 "J16" H 7878 3526 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 7878 3435 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7850 3550 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 7850 3550 50  0001 C CNN
 F 3 "~" H 7850 3550 50  0001 C CNN
 	1    7850 3550
 	1    0    0    -1  
@@ -1402,4 +1391,15 @@ Text Label 2650 5400 2    50   ~ 0
 GPIO24
 Text Label 2650 5500 2    50   ~ 0
 GPIO25
+$Comp
+L Connector:Conn_01x02_Female J14
+U 1 1 60E8B7DD
+P 7850 2500
+F 0 "J14" H 7878 2476 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 7878 2385 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 7850 2500 50  0001 C CNN
+F 3 "~" H 7850 2500 50  0001 C CNN
+	1    7850 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
