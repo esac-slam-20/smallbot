@@ -97,3 +97,23 @@ enable_uart=1
 
 保存后重启即可以启用树莓派的控制串口。串口设备路径为`/dev/ttyAMA0`
 
+#### 启用激光雷达连接串口
+
+
+使用编辑器打开 `/boot/config.txt`，在后面添加下面的指令，启用树莓派的串口：
+
+```
+dtoverlay=uart4
+```
+
+保存后重启即可以启用树莓派的UART4，其引脚为GPIO8、GPIO9，串口设备路径为`/dev/ttyAMA1`
+
+### 高级
+
+#### 热点
+
+// T.B.D.
+
+- [Ref 1](https://www.raspberrypi.org/forums/viewtopic.php?t=211542)
+- [Ref 2](https://raspberrypi.stackexchange.com/questions/37920/how-do-i-set-up-networking-wifi-static-ip-address-on-raspbian-raspberry-pi-os/37921#37921)
+- [Ref 3](https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md)
