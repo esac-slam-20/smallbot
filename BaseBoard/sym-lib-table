@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name BaseBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/BaseBoard-rescue.lib)(options "")(descr ""))
+  (lib (name GD32VF103)(type Legacy)(uri ${KIPRJMOD}/GD32VF103.lib)(options "")(descr ""))
 )
