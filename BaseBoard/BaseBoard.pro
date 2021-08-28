@@ -1,4 +1,4 @@
-update=2021-08-10 08:43:14
+update=2021-08-13 08:37:44
 version=1
 last_client=kicad
 [general]
@@ -31,17 +31,18 @@ MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.1
 TrackWidth3=0.2
-TrackWidth4=0.4
-TrackWidth5=1
-TrackWidth6=1.6
+TrackWidth4=0.3
+TrackWidth5=0.4
+TrackWidth6=1
+TrackWidth7=1.6
 ViaDiameter1=0.6
 ViaDrill1=0.4
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.15
-SilkTextSizeV=1
-SilkTextSizeH=1
+SilkTextSizeV=0.85
+SilkTextSizeH=0.85
 SilkTextSizeThickness=0.15
 SilkTextItalic=0
 SilkTextUpright=1
@@ -243,7 +244,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
-Clearance=0.3
+Clearance=0.2
 TrackWidth=1
 ViaDiameter=0.6
 ViaDrill=0.4
@@ -254,7 +255,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Power2
-Clearance=0.3
+Clearance=0.2
 TrackWidth=1.6
 ViaDiameter=0.6
 ViaDrill=0.4
