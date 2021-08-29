@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name BaseBoard)(type KiCad)(uri ${KIPRJMOD}/BaseBoard.pretty)(options "")(descr ""))
+)
