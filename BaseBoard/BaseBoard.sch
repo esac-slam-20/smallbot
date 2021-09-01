@@ -396,7 +396,7 @@ F 3 "" H 9600 2650 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J2
+L BaseBoard-rescue:USB_C_Receptacle_USB2.0-Connector J2
 U 1 1 61491E1C
 P 4250 1600
 F 0 "J2" H 4357 2467 50  0000 C CNN
@@ -1200,7 +1200,7 @@ U 1 1 6112EEA4
 P 4400 3700
 F 0 "Y2" H 4400 3968 50  0000 C CNN
 F 1 "8Mhz" H 4400 3877 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 4400 3700 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 4400 3700 50  0001 C CNN
 F 3 "~" H 4400 3700 50  0001 C CNN
 	1    4400 3700
 	1    0    0    -1  
