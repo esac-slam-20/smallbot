@@ -83,19 +83,6 @@ F 3 "" H 9750 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BaseBoard-rescue:USB_C_Receptacle_USB2.0-Connector J?
-U 1 1 6123F1A8
-P 7400 5300
-AR Path="/6123F1A8" Ref="J?"  Part="1" 
-AR Path="/611CF83A/6123F1A8" Ref="J22"  Part="1" 
-F 0 "J22" H 7507 6167 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 7507 6076 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 7550 5300 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7550 5300 50  0001 C CNN
-	1    7400 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 6123F1AE
 P 7100 6200
@@ -439,7 +426,7 @@ L Device:R_Small R8
 U 1 1 612EB198
 P 3750 6600
 F 0 "R8" H 3809 6646 50  0000 L CNN
-F 1 "28k" H 3809 6555 50  0000 L CNN
+F 1 "10.5k" H 3809 6555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3750 6600 50  0001 C CNN
 F 3 "~" H 3750 6600 50  0001 C CNN
 	1    3750 6600
@@ -815,23 +802,23 @@ $EndComp
 $Comp
 L Device:R_Small R11
 U 1 1 612C7569
-P 5250 5100
-F 0 "R11" H 5309 5146 50  0000 L CNN
-F 1 "360k" H 5309 5055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5250 5100 50  0001 C CNN
-F 3 "~" H 5250 5100 50  0001 C CNN
-	1    5250 5100
+P 5250 4700
+F 0 "R11" H 5309 4746 50  0000 L CNN
+F 1 "360k" H 5309 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5250 4700 50  0001 C CNN
+F 3 "~" H 5250 4700 50  0001 C CNN
+	1    5250 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R10
 U 1 1 612CC439
-P 5250 4700
-F 0 "R10" H 5309 4746 50  0000 L CNN
-F 1 "100k" H 5309 4655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5250 4700 50  0001 C CNN
-F 3 "~" H 5250 4700 50  0001 C CNN
-	1    5250 4700
+P 5250 5100
+F 0 "R10" H 5309 5146 50  0000 L CNN
+F 1 "100k" H 5309 5055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5250 5100 50  0001 C CNN
+F 3 "~" H 5250 5100 50  0001 C CNN
+	1    5250 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1584,4 +1571,17 @@ Wire Wire Line
 	6350 6500 6300 6500
 Wire Wire Line
 	6350 6750 6350 6800
+$Comp
+L BaseBoard-rescue:USB_C_Receptacle_USB2.0-Connector J?
+U 1 1 6123F1A8
+P 7400 5300
+AR Path="/6123F1A8" Ref="J?"  Part="1" 
+AR Path="/611CF83A/6123F1A8" Ref="J22"  Part="1" 
+F 0 "J22" H 7507 6167 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 7507 6076 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 7550 5300 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7550 5300 50  0001 C CNN
+	1    7400 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
