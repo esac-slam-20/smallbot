@@ -32,6 +32,7 @@ fp-info-cache
 
 ### KiCad Patch ###
 escue-backup/
+*-backups/
 
 *.tsv
 bom/
