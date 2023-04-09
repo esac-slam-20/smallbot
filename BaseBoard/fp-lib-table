@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name BaseBoard)(type KiCad)(uri ${KIPRJMOD}/BaseBoard.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "BaseBoard")(type "KiCad")(uri "${KIPRJMOD}/BaseBoard.pretty")(options "")(descr ""))
+  (lib (name "Smallbot")(type "KiCad")(uri "${KIPRJMOD}/Smallbot.pretty")(options "")(descr ""))
 )

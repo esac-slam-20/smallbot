@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "GD32VF103")(type "KiCad")(uri "${KIPRJMOD}/GD32VF103.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "Smallbot")(type "KiCad")(uri "${KIPRJMOD}/Smallbot.kicad_sym")(options "")(descr ""))
 )
